@@ -23,6 +23,7 @@ module.exports = {
     'prettier/prettier': 'error',
     camelcase: 0,
     'no-console': 0,
-    'require-await': 0
+    'require-await': 0,
+    'promise/param-names': 0
   }
 }

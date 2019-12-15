@@ -1,9 +1,10 @@
 {
-  "name": "B2B",
+  "name": "b2b",
   "version": "0.1.0",
   "description": "",
   "scripts": {
-    "dev": "cross-env NODE_ENV=production node index.js",
+    "dev": "cross-env NODE_ENV=development nodemon index.js --watch .",
+    "start": "cross-env NODE_ENV=production node index.js",
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore . --fix",
     "commit": "git cz"
   },
