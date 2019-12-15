@@ -1,0 +1,36 @@
+{
+  "typeAcquisition": {
+    "include": []
+  },
+  "compilerOptions": {
+    "module": "esnext",
+    "target": "esnext",
+    // "checkJs": true,
+    "moduleResolution": "node",
+    "baseUrl": ".",
+    "paths": {
+      "~/*": [
+        "./*"
+      ],
+      "@/*": [
+        "./*"
+      ],
+      "~~/*": [
+        "./*"
+      ],
+      "@@/*": [
+        "./*"
+      ]
+    }
+  },
+  "exclude": [
+    "node_modules",
+    "**/node_modules/*",
+    ".nuxt",
+    "dist"
+  ],
+  "include": [
+    "packages/**/*"
+  ],
+  "javascript.implicitProjectConfig.checkJs": true
+}
